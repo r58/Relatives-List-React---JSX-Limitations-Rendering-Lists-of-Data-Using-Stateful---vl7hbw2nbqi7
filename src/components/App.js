@@ -2,16 +2,17 @@ import React, {Component, useState} from "react";
 import '../styles/App.css';
 
 class App extends Component {
-    render() {
 
+    render() {
         return(
             <div id="main">
-               <ol key=" relativeList">
-            <li key="relativeListItem1">Rajesh</li>
-            <li key="relativeListItem2">Mahesh</li>
-            <li key="relativeListItem3">Ravi</li>
-            <li key="relativeListItem4">Rakesh</li>
-            </ol>
+               {/* Do not remove the main div */}
+               <ol key="relativeList">
+                <li key="relativeListItem1">Rajesh</li>
+                <li key="relativeListItem2">Suresh</li>
+                <li key="relativeListItem3">Mani</li>
+                <li key="relativeListItem4">Hari</li>
+               </ol>
             </div>
         )
     }
